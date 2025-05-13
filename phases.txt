@@ -1,0 +1,8 @@
+Step 1: Nodule Detection (Object Detection)
+Model: YOLOv8 (faster & easier than Faster R-CNN).
+Dataset: LUNA16 (preprocessed version of LIDC-IDRI).
+Process: Train YOLOv8 to detect nodules in CT scans.
+🔹 Step 2: Nodule Classification (Benign vs. Malignant)
+Model: ResNet50 (good balance of accuracy & speed).
+Dataset: Kaggle Lung Cancer Dataset (simpler than NLST).
+Process: Train ResNet50 to classify detected nodules.
